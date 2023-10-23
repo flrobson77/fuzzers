@@ -1,0 +1,15 @@
+Começar realizando varredura no serviço
+Testar a conexão com ftp.py
+Testar o limite do campo user da aplicação ftp usando fuzzer.py
+Confirmar usando crash.py
+Depois usar charcrash.py para encontrar o eip
+As ferramentas pattern_create.rb e o pattern_offset no diretório /usr/share/metasploit-framework/tools/exploit
+Finaliza com offset.py
+Usando nasm_shell.rb e o eip.py
+arquivo ascchar.py e bad.py 
+
+Gerar o payload com msfvenom -l payload
+
+msfvenom -p windows/shell/bind_tcp LPORT=4444 -f python
+
+Usando payload e ainda o arquivo bad.py ajustar e criar o exploit
